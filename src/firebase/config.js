@@ -13,7 +13,8 @@ var firebaseConfig = {
   measurementId: "G-DCRM8R6Y5H",
 };
 
-firebase.initializeApp(firebaseConfig);
-firebase.analytics();
+if (!firebase.apps.length) {
+  firebase.initializeApp(firebaseConfig);
+}
 
 export { firebase };
