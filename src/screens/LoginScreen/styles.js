@@ -37,11 +37,10 @@ export default StyleSheet.create({
   buttonTitle: {
     color: "white",
     fontSize: 16,
-    fontWeight: "bold",
   },
   footerView: {
     flex: 1,
-    alignItems: "center",
+    alignItems: "right",
     marginTop: 20,
   },
   footerText: {
