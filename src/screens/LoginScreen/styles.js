@@ -8,7 +8,7 @@ export default StyleSheet.create({
   title: {},
   logo: {
     flex: 1,
-    height: 120,
+    height: 250,
     width: 90,
     alignSelf: "center",
     margin: 30,
